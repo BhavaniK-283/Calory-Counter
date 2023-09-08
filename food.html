@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Food Calories</title>
+        <meta name="description" content="This is the description">
+        <link rel="stylesheet" href="food.css" />
+        <script src="food.js" async></script>
+    </head>
+    <body>
+        <header class="main-header">
+            
+            <h1 class="band-name band-name-large">Food</h1>
+        </header>
+        <section class="container content-section">
+            <h2 class="section-header">Breakfast</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Idly</span>
+                    <img class="shop-item-image" src="idly.jpeg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">58 calories</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD </button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">cereals</span>
+                    <img class="shop-item-image" src="cereals.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">110 calories</span>
+                        <button class="btn btn-primary shop-item-button"type="button">ADD </button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Bread</span>
+                    <img class="shop-item-image" src="bread.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">92 calories</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD </button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Chapathi</span>
+                    <img class="shop-item-image" src="chapathi.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">71 calories</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">Lunch</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Veg Meals </span>
+                    <img class="shop-item-image" src="meals.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">860 calories</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD </button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Veg Salad</span>
+                    <img class="shop-item-image" src="salad.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">13 calories</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">Dinner</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Fruit Salad </span>
+                    <img class="shop-item-image" src="fruitsalad.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">50 calories</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD </button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Fruit Juice</span>
+                    <img class="shop-item-image" src="juice.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">58 calories</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">Calories</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">FOOD</span>
+                <span class="cart-price cart-header cart-column">CALORIES</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+                <div class="cart-row">
+                    <div class="cart-item cart-column">
+                        <img class="cart-item-image" src="fruitsalad.jpg" width="100" height="100">
+                        <span class="cart-item-title">Fruit Salad</span>
+                    </div>
+                    <span class="cart-price cart-column">50 calories</span>
+                    <div class="cart-quantity cart-column">
+                        <input class="cart-quantity-input" type="number" value="1">
+                        <button class="btn btn-danger" type="button">REMOVE</button>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">50 calories</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">Total Calories</button>
+        </section>
+       
+    </body>
+</html>

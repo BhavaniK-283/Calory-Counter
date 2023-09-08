@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise Calories</title>
+        <meta name="description" content="This is the description">
+        <link rel="stylesheet" href="exercise.css" />
+        <script src="exercise.js" async></script>
+    </head>
+    <body>
+        <header class="main-header">
+            
+            <h1 class="band-name band-name-large">Exercises</h1>
+        </header>
+        <section class="container content-section">
+            <h2 class="section-header">Non-cardio Exercises</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Lunge</span>
+                    <img class="shop-item-image" src="lunges.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">0.3 burnt calories</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD </button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Crunch</span>
+                    <img class="shop-item-image" src="crunches.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">3 burnt calories</span>
+                        <button class="btn btn-primary shop-item-button"type="button">ADD </button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Pullups</span>
+                    <img class="shop-item-image" src="pullups.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">5 burnt calories</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD </button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Mountaing Climbers</span>
+                    <img class="shop-item-image" src="mountainclimbers.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">10 burnt calories</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">Cardoio Exercises</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Boxing </span>
+                    <img class="shop-item-image" src="boxing.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">13 burnt calories</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD </button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Burpee</span>
+                    <img class="shop-item-image" src="burpee.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">10 burnt calories</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">Aerobic Exercises</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Jump ropes </span>
+                    <img class="shop-item-image" src="jumprope.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">16 burnt calories</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD </button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Jogging</span>
+                    <img class="shop-item-image" src="jogging.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">11 burnt calories</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">Calories</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">EXERCISE</span>
+                <span class="cart-price cart-header cart-column">BURNT CALORIES</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+                <div class="cart-row">
+                    <div class="cart-item cart-column">
+                        <img class="cart-item-image" src="jumprope.jpg" width="100" height="100">
+                        <span class="cart-item-title">Jump ropes</span>
+                    </div>
+                    <span class="cart-price cart-column">50 burnt calories</span>
+                    <div class="cart-quantity cart-column">
+                        <input class="cart-quantity-input" type="number" value="1">
+                        <button class="btn btn-danger" type="button">REMOVE</button>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">50 burnt calories</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">Total Burnt Calories</button>
+        </section>
+       
+    </body>
+</html>
